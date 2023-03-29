@@ -14,9 +14,7 @@ configurations {
 		extendsFrom annotationProcessor
 	}
 }
-configurations {
-    asciidoctorExt // (2) Asciidoctor 사용을 위한 설정 선언
-}
+
 repositories {
 	mavenCentral()
 }
