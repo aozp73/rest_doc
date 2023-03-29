@@ -14,7 +14,9 @@ configurations {
 		extendsFrom annotationProcessor
 	}
 }
-
+configurations {
+    asciidoctorExt // (2) Asciidoctor 사용을 위한 설정 선언
+}
 repositories {
 	mavenCentral()
 }
@@ -51,4 +53,3 @@ bootJar {
         into 'src/main/resources/static/docs'    // /static/docs로 복사!
     }
 }
-
